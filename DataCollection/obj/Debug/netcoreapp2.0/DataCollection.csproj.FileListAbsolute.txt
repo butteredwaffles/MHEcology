@@ -1,0 +1,13 @@
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\obj\Debug\netcoreapp2.0\DataCollection.csprojAssemblyReference.cache
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\obj\Debug\netcoreapp2.0\DataCollection.csproj.CoreCompileInputs.cache
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\obj\Debug\netcoreapp2.0\DataCollection.AssemblyInfoInputs.cache
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\obj\Debug\netcoreapp2.0\DataCollection.AssemblyInfo.cs
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\bin\Debug\netcoreapp2.0\x86\e_sqlite3.dll
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\bin\Debug\netcoreapp2.0\x64\e_sqlite3.dll
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\bin\Debug\netcoreapp2.0\DataCollection.deps.json
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\bin\Debug\netcoreapp2.0\DataCollection.runtimeconfig.json
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\bin\Debug\netcoreapp2.0\DataCollection.runtimeconfig.dev.json
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\bin\Debug\netcoreapp2.0\DataCollection.dll
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\bin\Debug\netcoreapp2.0\DataCollection.pdb
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\obj\Debug\netcoreapp2.0\DataCollection.dll
+C:\Users\jdonu\Desktop\MHEcology\DataCollection\obj\Debug\netcoreapp2.0\DataCollection.pdb

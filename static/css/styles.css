@@ -1,0 +1,96 @@
+@font-face {
+    font-family: MonFont;
+    src: url('/static/fonts/Monsterz.otf');
+}
+
+@font-face {
+    font-family: Knackpack;
+    src: url('/static/fonts/Knackpack_Std.ttf');
+}
+
+@font-face {
+    font-family: FacileSans;
+    src: url('/static/fonts/Facile\ Sans.otf');
+}
+
+.knackpack {
+    font-family: "Knackpack";
+}
+
+body {
+    background-image: url('/static/images/bg.jpg');
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Knackpack';
+    color: white;
+    font-size: 3.5em;
+}
+
+.container {
+    display: grid;
+    border: 10px double rgb(44, 30, 5);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: repeat(10, 1fr);
+    margin: auto;
+    padding: 15px;
+}
+
+.monster {
+    border: 4px double rgb(44, 30, 5);
+    padding: 2px;
+}
+
+.double-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3px;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.monnames {
+    font-size: 13px;
+    font-family: 'FacileSans';
+    text-align: center;
+    line-height: 14px;
+    color: white;
+}
+
+#monindivheader {
+    font-size: 2em;
+}
+
+.dcontainer {
+    color: white;
+    height: 98%;
+    overflow: auto;
+    border: 10px double rgb(44, 30, 5);
+}
+.center-wrapper {
+    text-align: center;
+}
+
+#monindivimg {
+    image-rendering: pixelated;
+    width: 300px;
+    height: 300px;
+}
+
+.icons {
+    width: 105px;
+    height: 105px;
+    text-align: center;
+}
+
+#indepth-data {
+    font-family: "FacileSans";
+    font-size: 16px;
+}
+
+#indepth-data p {
+    padding: 6px;
+}

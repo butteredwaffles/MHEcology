@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>{{ monster.name }} Ecology</title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"/>
+    </head>
+    <body>
+        <div class="monster double-container">
+            <div id="general-data" class="dcontainer">
+                <div class="center-wrapper">
+                    <img src="/static/images/icons/{{ monster.image_url }}" alt="{{monster.name}}" id='monindivimg'>
+                </div>
+                <h1 class="monnames" id="monindivheader">{{ monster.name }}</h2>
+                <h2 class='center-wrapper'>Taxonomy</h2>
+                <h3 class='center-wrapper'>
+                    {% autoescape false %}
+                        {{ monster.taxonomy | replace("\n", "<br/>") }}
+                    {% endautoescape %}
+                </h3>
+            </div>
+            <div id="indepth-data" class="dcontainer">
+                <p>{{ monster.habitat }}</p>
+                <p>{{ monster.niche }}</p>
+                <p>{{ monster.biology }}</p>
+                <p>{{ monster.behavior }}</p>
+            </div>
+        </div>
+    </body>
+</html>

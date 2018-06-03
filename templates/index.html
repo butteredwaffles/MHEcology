@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Monster Hunter Ecology</title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"/>
+    </head>
+    <body>
+        <h1>Monster Hunter Ecology</h1>
+        <div class="container">
+            {% for monster in monsters %}
+                <div class="monster">
+                    <a href={{ url_for('eco_page', name=monster.name) }}><img src="/static/images/icons/{{ monster.image_url }}" alt="{{monster.name}}" class="icons"></a>
+                    <p class="monnames">{{monster.name}}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </body>
+</html>
