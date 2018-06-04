@@ -13,9 +13,8 @@ def eco_page(name):
     monsters = mondata.check_images_exist(mondata.get_monsters())
     monster = [monstert for monstert in monsters if monstert['name'] == name]
     if monster:
-        print(repr(monster[0]['taxonomy']))
         return render_template('eco.html', monster=monster[0])
     return render_template_string("<h1>Could not find that monster!</h1>")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()

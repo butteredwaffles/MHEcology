@@ -81,6 +81,7 @@ h1 {
 }
 
 .icons {
+    image-rendering: pixelated;
     width: 105px;
     height: 105px;
     text-align: center;
