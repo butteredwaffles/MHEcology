@@ -29,6 +29,6 @@ def check_images_exist(monsters):
         newmon = dict(monster)
         newmon['image_url'] = image_name
         updated_mon.append(newmon)
-    return updated_mon
+    return sorted(updated_mon, key=lambda k: k['name']) 
     
         
