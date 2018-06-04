@@ -49,7 +49,6 @@ h1 {
     grid-column-gap: 3px;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
 }
 
 .monnames {
@@ -57,16 +56,17 @@ h1 {
     font-family: 'FacileSans';
     text-align: center;
     line-height: 14px;
-    color: white;
+    color: rgb(44, 30, 5);
 }
 
 #monindivheader {
     font-size: 2em;
+    font-weight: bold;
 }
 
 .dcontainer {
-    color: white;
-    height: 98%;
+    color: #3d2f16;
+    height: 92vh;
     overflow: auto;
     border: 10px double rgb(44, 30, 5);
 }
@@ -91,6 +91,6 @@ h1 {
     font-size: 16px;
 }
 
-#indepth-data p {
-    padding: 6px;
+.padded-text {
+    padding: 10px;
 }

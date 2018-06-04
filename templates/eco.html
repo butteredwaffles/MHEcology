@@ -11,17 +11,17 @@
                 </div>
                 <h1 class="monnames" id="monindivheader">{{ monster.name }}</h2>
                 <h2 class='center-wrapper'>Taxonomy</h2>
-                <h3 class='center-wrapper'>
+                <h3 class='center-wrapper padded-text'>
                     {% autoescape false %}
                         {{ monster.taxonomy | replace("\n", "<br/>") }}
                     {% endautoescape %}
                 </h3>
             </div>
             <div id="indepth-data" class="dcontainer">
-                <p>{{ monster.habitat }}</p>
-                <p>{{ monster.niche }}</p>
-                <p>{{ monster.biology }}</p>
-                <p>{{ monster.behavior }}</p>
+                <p class="padded-text">{{ monster.habitat }}</p>
+                <p class="padded-text">{{ monster.niche }}</p>
+                <p class="padded-text">{{ monster.biology }}</p>
+                <p class="padded-text">{{ monster.behavior }}</p>
             </div>
         </div>
     </body>
